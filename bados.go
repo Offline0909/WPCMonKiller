@@ -14,7 +14,7 @@ var running = true
 func OnReady()  {
 	fmt.Println("Executed")
 
-	//icon, _ := ioutil.ReadFile("seed.png")
+	//icon, _ := ioutil.ReadFile("") // TBD image icon that appears in task menu tray.
 
 	//systray.SetIcon(icon)
 	systray.SetTitle("AntiWPC")
