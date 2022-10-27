@@ -15,3 +15,5 @@ Will completely negate:
 # Requirements
 Will require Administrator privileges on the user account. Without them, you will not be able to kill the WPCMon task.
 For more optimal use, give program administrative priveleges and place in startup folder.
+
+[This systray](https://github.com/getlantern/systray) library is also used as a dependency, albeit it is pretty redundant in this use case and I just wanted to mess around with it. If I rewrite this, I will just make the program a background process.
